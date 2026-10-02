@@ -279,6 +279,11 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
+|NFR-08| NFR-Q (Mantenibilidad) | La plataforma ofrecerá mecanismos de interacción entre los usuarios, por ejemplo comentar, valorar o recomendar recetas, que permitan generar un entorno de apoyo mutuo y mejora continua del contenido. | G | | - | vision_y_alcance | - |
+| NFR-09 | NFR-I |La plataforma trata datos personales y puede tratar datos de salud. Estos últimos tienen una protección reforzada. Para este caso, el marco de referencia es el Reglamento General de Protección de Datos (RGPD) y, en España, la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales.|  G  | - | vision_y_alcance  | - |
+| NFR-10 | NFR-Q |Los usuarios principales, pacientes, cuidadores y profesionales de la salud, están geográficamente dispersos, aunque mayoritariamente en un mismo huso horario. Se garantiza disponibilidad 24/7 para permitir la interacción en cualquier momento| G | - |  vision_y_alcance  | - | 
+| NFR-11 |NFR-R |La primera versión de la aplicacón estará disponible en castellano y gallego.| G | -  | acta-captura-requisitos-generales | - |
+| NFR-12 |NFR-R(Diseño e implementación) |El sistema será una aplicación web utilizable desde navegadores en ordenadores y dispositivos móviles.| G | -  | acta-captura-requisitos-generales | - |
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
